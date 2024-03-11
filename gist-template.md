@@ -29,9 +29,9 @@ While this guide should be fairly comprehensive, I will add extra focus on a cha
 
 Regex Anchors do not match any characters, they actually confirm that the current position of the regex search within the string aligns with specific locations. These locations may include the start of the string, or the end of a line.
 
-    In most cases, the caret anchor ^ asserts that the search is the beginning of the string. Therefore, ^a matches an a at the beginning of the string.
+In most cases, the caret anchor ^ asserts that the search is the beginning of the string. Therefore, ^a matches an a at the beginning of the string.
 
-    To match at the very end of the string, the $ anchor corresponds to the position immediately after the final character.  Example string = "the apple", the $ anchor matches the position after the e, and e$ matches the final e, but not the first one.
+To match at the very end of the string, the $ anchor corresponds to the position immediately after the final character.  Example string = "the apple", the $ anchor matches the position after the e, and e$ matches the final e, but not the first one.
 
 ### Quantifiers
 
