@@ -3,11 +3,11 @@
 
 Regular expressions are extremely valuable for extracting information from various types of text.  Examples include invoices, spreadsheets, long log files, etc.. The following lessons and examples will demonstrate practical applications of regular expressions, to facilite fast and accuract data extractions for your workflow.
 
-An essential point about regular expressions is that each element within text is a character. Consequently, our aim is to devise patterns that precisely correspond to specific sequences of characters, ie: strings. These patterns are combinations of letters, digits, punctuation marks, and various keyboard symbols.
+An essential point about regular expressions is that each element within text is a character. Therefore, our objective is to devise patterns that precisely correspond to specific sequences of characters, ie: strings. These patterns are combinations of letters, digits, punctuation marks, and various keyboard symbols.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+While this guide should be fairly comprehensive, I will add extra focus on a challenge I have personally had in my business.  Matching patterns for dates.  The combinations of dates from Canada, UK, and the US is truly surprising once one realizes how many need to be used.
 
 ## Table of Contents
 
