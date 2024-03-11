@@ -53,6 +53,14 @@ eg: `hi|hello` == A string that contains either `hi` or `hello`
 
 ### Character Classes
 
+Simply place the characters you want to match between square brackets. If you want to match an a or an e, use `[ae]`. You could use this in `gr[ae]y` to match either `gray` or `grey`.
+
+A very common use is to search for only digits: `[0-9]`.  Note the hyphen represents a range.
+
+Another common use case is to find a hexadecimal digit: `[0-9a-fA-F]`
+
+Placing a caret immediately after the opening square bracket negates the character class.  ie: `q[^u]` means “a `q` followed by a character that is not a `u`”.
+
 ### Flags
 
 ### Grouping and Capturing
