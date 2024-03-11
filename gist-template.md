@@ -1,6 +1,9 @@
-# Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+# REGEX: Regular Expressions - Pattern matching to get your data
+
+Regular expressions are extremely valuable for extracting information from various types of text.  Examples include invoices, spreadsheets, long log files, etc.. The following lessons and examples will demonstrate practical applications of regular expressions, to facilite fast and accuract data extractions for your workflow.
+
+An essential point about regular expressions is that each element within text is a character. Consequently, our aim is to devise patterns that precisely correspond to specific sequences of characters, ie: strings. These patterns are combinations of letters, digits, punctuation marks, and various keyboard symbols.
 
 ## Summary
 
