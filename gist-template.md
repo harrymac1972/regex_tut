@@ -35,9 +35,11 @@ To match at the very end of the string, the `$` anchor corresponds to the positi
 
 ### Quantifiers
 
-Quantifiers determine the frequency of repetition for a specific segment of your regular expression. Whenever there's a need to repeat a component within a regex, a quantifier can be appended to indicate the desired repetition count.
+Quantifiers determine the frequency of repetition for a specific segment of your regular expression. Whenever there's a need to repeat a component within a regex, a quantifier can be appended to indicate the desired repetition count.<br>
 
-eg:'Range Quantifier' `enrol{1,2}` you'll be able to match both enrol AND enroll.
+`{MAX,MIN}` - missing parameter == 'any'
+
+eg: 'Range Quantifier' `enrol{1,2}` you'll be able to match both enrol AND enroll.
 Note that other Quantifiers can be translated into ranges for comprehension.
 
 `?` is `{0,1}`<br>
@@ -45,6 +47,9 @@ Note that other Quantifiers can be translated into ranges for comprehension.
 `+` is `{1,}`
 
 ### OR Operator
+
+Parameters are separated by a 'pipe' character. <br>
+eg: `hi|hello` == A string that contains either `hi` or `hello`
 
 ### Character Classes
 
