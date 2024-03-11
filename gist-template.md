@@ -7,7 +7,7 @@ An essential point about regular expressions is that each element within text is
 
 ## Summary
 
-While this guide should be fairly comprehensive, I will add extra focus on a challenge I have personally had in my business.  Matching patterns for dates.  The combinations of dates from Canada, UK, and the US is truly surprising once one realizes how many need to be used.
+While this guide should be fairly comprehensive, I will add extra focus on a challenge I have personally had in my business.  Matching patterns for dates.  The combinations of Regex Exprissions needed for dates from Canada, UK, and the US is truly surprising once one realizes how many need to be used.
 
 ## Table of Contents
 
@@ -34,6 +34,15 @@ In most cases, the caret anchor `^` asserts that the search is the beginning of 
 To match at the very end of the string, the `$` anchor corresponds to the position immediately after the final character.  Example string = `the apple`, the `$` anchor matches the position after the e, and `e$` matches the final e, but not the first one.
 
 ### Quantifiers
+
+Quantifiers determine the frequency of repetition for a specific segment of your regular expression. Whenever there's a need to repeat a component within a regex, a quantifier can be appended to indicate the desired repetition count.
+
+eg:'Range Quantifier' `enrol{1,2}` you'll be able to match both enrol AND enroll.
+Note that other Quantifiers can be translated into ranges for comprehension.
+
+`?` is `{0,1}`<br>
+`*` is `{0,}`<br>
+`+` is `{1,}`
 
 ### OR Operator
 
