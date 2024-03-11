@@ -63,6 +63,19 @@ Placing a caret immediately after the opening square bracket negates the charact
 
 ### Flags
 
+A flag alters the default search behavior of a regular expression, causing it to execute searches in a modified manner.
+
+`i`	- Ignore Casing <br>
+`g`	- Global <br>
+`s`	- Dot All <br>
+`m`	- Multiline <br>
+`y`	- Sticky <br>
+`u`	- Unicode <br>
+
+Syntax: `/pattern/flags`
+
+Example: `/hello/i` makes the casing inconsequential.
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
