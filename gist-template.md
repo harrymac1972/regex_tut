@@ -78,7 +78,15 @@ Example: `/hello/i` makes the casing inconsequential.
 
 ### Grouping and Capturing
 
+Grouping within regular expressions is a tool that streamlines patterns. For instance, it allows you to identify recurring sequences of characters, like phone numbers or email addresses, making pattern matching more efficient.
+
+eg: `(\d{3})-(\d{3})-(\d{4})`<br>
+would capture a typical North American phone number: `555-867-5309`
+
+
 ### Bracket Expressions
+
+A bracket expression comprises characters enclosed within `[` and `]`. It matches any single character from that specified list. If the list begins with the caret '^', it matches any character not present in the list, and it's unspecified whether it matches an encoding error. For instance, the regex `[0123456789]` matches any single digit, while `[^()]` matches any character except an opening or closing parenthesis, potentially encountering an encoding error.
 
 ### Greedy and Lazy Match
 
