@@ -105,7 +105,9 @@ This returns the word in the middle `is` but not the 'is' in 'this' or 'island'.
 
 ### Back-references
 
-
+Backreferences enable you to refer to and reuse the text captured by a capturing group within the same regular expression pattern.<br>
+eg: `(a|b|cd)\1` matches `aa`, `bb` or `cdcd`<br>
+Capturing groups and backreferences is very useful in various situations, including addressing the "finding duplicated words" problem.
 
 ### Look-ahead and Look-behind
 
