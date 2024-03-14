@@ -98,9 +98,14 @@ A greedy match will match the whole string, and a lazy match will match just the
 
 ### Boundaries
 
-
+Simply put: `\b` allows you to perform a “whole words only” search using a regular expression in the form of `\bword\b`. A “word character” is a character that can be used to form words. All characters that are not “word characters” are “non-word characters”.<br>
+<br>
+eg: apply the regex `\bis\b` to the string `This island is beautiful`<br>
+This returns the word in the middle `is` but not the 'is' in 'this' or 'island'.
 
 ### Back-references
+
+
 
 ### Look-ahead and Look-behind
 
