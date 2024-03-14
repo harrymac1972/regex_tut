@@ -90,7 +90,15 @@ A bracket expression comprises characters enclosed within `[` and `]`. It matche
 
 ### Greedy and Lazy Match
 
+Greedy means your expression will match as large a group as possible, lazy means it will match the smallest group possible. <br>
+Addding a question mark at the end of quantifier will enable lazy match.
+<br>
+For this string: `abcdefghijklmc`, and this expression: `a.*c`
+A greedy match will match the whole string, and a lazy match will match just the first `abc`.
+
 ### Boundaries
+
+
 
 ### Back-references
 
