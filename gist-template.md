@@ -111,6 +111,13 @@ Capturing groups and backreferences is very useful in various situations, includ
 
 ### Look-ahead and Look-behind
 
+ At the end of a lookahead or a lookbehind, the regex engine hasn't moved on the string.  Therefore "lookarounds stand their ground". They look immediately to the left or right of the engine's current position on the string—but do not alter that position.<br>
+`(?=world)`	Lookahead	Asserts that what immediately follows the current position in the string is "world"<br>
+`(?<=hello)`	Lookbehind	Asserts that what immediately precedes the current position in the string is "hello"<br>
+`(?!world)`	Negative Lookahead	Asserts that what immediately follows the current position in the string is not "world"<br>
+`(?<!hello)`	Negative Lookbehind	Asserts that what immediately precedes the current position in the string is not "hello"
+
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
