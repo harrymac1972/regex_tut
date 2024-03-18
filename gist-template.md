@@ -117,7 +117,15 @@ Capturing groups and backreferences is very useful in various situations, includ
 `(?!world)`	Negative Lookahead	Asserts that what immediately follows the current position in the string is not "world"<br>
 `(?<!hello)`	Negative Lookbehind	Asserts that what immediately precedes the current position in the string is not "hello"
 
+## Bonus Content
+
+While not using complicated regex expressions, finding all the purmutations of dates can become quite involved!<br>
+The following is an SQLite table from an application I made at work to extract data from documents.<br>
+There is just too many ways to write dates.  One has to wonder why this has not been made into a more uniform standard.<br><br>
+![Screenshot_1](./imgs/dates_regex_format_table.png)
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This feature presentation has been brought to you by Harry.<br>
+Years ago I rode skateboards and BMX, now I ride motorcycles, in the future I will ride mobility scooters.<br>
+<a href="https://github.com/harrymac1972">Harry on Github</a>
