@@ -22,6 +22,7 @@ While this guide should be fairly comprehensive, I will add extra focus on a cha
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Bonus Content](#bonus-content)
 
 ## Regex Components
 
