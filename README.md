@@ -53,6 +53,9 @@ n/a
 ## GitHub Link
 <a href="https://github.com/harrymac1972/regex_tut">Regex Tutorial on Github</a>
 
+## Gist Link
+<a href="https://gist.github.com/harrymac1972/68547d89650fc2de8156b2a4093f825c">Regex Tutorial Gist</a>
+
 
 ## Heroku Link
 n/a
